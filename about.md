@@ -1,5 +1,5 @@
 <br>  
-* The code for this Shiny app is available on Github: 
+* The code for this Shiny app is available on Github: https://github.com/BernhardClemm/role-of-randomization-shiny
 <br>  
 * Please contact me (bernhardclemm.com) if you have feedback, ideas for additional features or if you discovered errors.
 <br>    
