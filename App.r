@@ -57,7 +57,7 @@ ui <- fluidPage(
       
       tabsetPanel(
         tabPanel("One assignment", tableOutput("table")),
-        tabPanel("One hundred assignments", column(4, plotOutput(outputId = "plot", width="500px", height="400px")))),
+        tabPanel("One hundred assignments", plotOutput(outputId = "plot"))),
       tabsetPanel(
         tabPanel("Instructions", includeMarkdown("instruction.md")),
         tabPanel("About", includeMarkdown("about.md"))
