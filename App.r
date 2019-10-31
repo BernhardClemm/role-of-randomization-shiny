@@ -149,6 +149,7 @@ server <- function(input, output) {
       summary["All"] <- sample
 
       return(summary)
+      return(n_treatments)
 
     })
     
@@ -254,6 +255,7 @@ server <- function(input, output) {
                                   partner_stats)
 
       return(statistics_df)
+      return(n_treatments)
 
     })
     
