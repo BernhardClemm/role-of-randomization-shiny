@@ -255,8 +255,14 @@ server <- function(input, output) {
                                   partner_stats)
 
       return(statistics_df)
-      return(n_treatments)
 
+    })
+    
+    n_treatments <- eventReactive(input$assign,{
+      
+      n_treatments <- input$treatments
+      return(n_treatments)
+      
     })
     
     ## Table for one assignment
@@ -271,7 +277,8 @@ server <- function(input, output) {
     ## Six plots for hundred assignments
     
     output$plot <- renderPlot({
-
+  
+      n_treatments <- n_treatments()
       my_table <- data_assigned_100()
       
       ### Different statistics plotted depending on treatment number
