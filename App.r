@@ -7,6 +7,8 @@ library(stringr)
 library(ggplot2)
 library(gridExtra)
 
+# Hosted on: https://bernhardclemm.shinyapps.io/role-of-randomization-shiny/
+
 # Read in British Election Study 2017 Version 1.3 
 ## (https://www.britishelectionstudy.com/data-object/2017-face-to-face/)
 ## Selected variables: Age, gender, ethnicity, religion, leftright, presence of respondent's partner during interview y48_1
