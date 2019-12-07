@@ -5,6 +5,6 @@ account: bernhardclemm
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 1407530
-bundleId: 2555316
+bundleId: 2557737
 url: https://bernhardclemm.shinyapps.io/role-of-randomization-shiny/
-when: 1572549196.35937
+when: 1572635337.33952
